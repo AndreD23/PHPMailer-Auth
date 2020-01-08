@@ -1,0 +1,28 @@
+{
+  "name": "andred23/phptips003",
+  "description": "Enviando E-mails Autenticados com PHPMailer",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "André Dorneles",
+      "email": "andre@imperiosoft.com.br",
+      "role": "Developer",
+      "homepage": "https://imperiosoft.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.*"
+  }
+}
